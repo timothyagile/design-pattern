@@ -6,3 +6,5 @@ public class RoadLogistic extends Logistic {
         return new TruckTransport();
     }
 }
+
+
