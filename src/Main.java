@@ -1,21 +1,32 @@
-import Exercise.BT1.ExerciseAbstractFactory.AbstractFactory;
-import Exercise.BT1.ExerciseFactoryMethodPattern.FactoryMethodExercise;
+import Exercise.BT2.Prototype.Client;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //--Factory Method--\\
+        //--1. Factory Method--\\
         //FactoryMethod.demoFactoryMethod();
         //FactoryMethodExercise.demoFactoryMethod();
 
 
-        //Abstract Factory
-        AbstractFactory.demo();
+        //2. Abstract Factory
+        //AbstractFactory.demo();
 
-        //--Prototype
+        //3. Prototype
 
         //PrototypeMethod.demoPrototypeMethod();
+        //Client.operate();
+
+        //4. Builder
+
+        Client.operate();
+
+        //5. Singleton
+        //Client.operate();
+
+        //6. Composite
+
+        //Client.operate();
     }
 }
 
