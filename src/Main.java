@@ -1,4 +1,5 @@
-import Exercise.BT2.Prototype.Client;
+import Exercise.BT3.AdapterPattern.Client;
+import Exercise.BT3.BridgePattern.BridgePatternClient;
 
 public class Main {
 
@@ -19,7 +20,7 @@ public class Main {
 
         //4. Builder
 
-        Client.operate();
+        //Client.operate();
 
         //5. Singleton
         //Client.operate();
@@ -27,6 +28,14 @@ public class Main {
         //6. Composite
 
         //Client.operate();
+
+        //7. Adapter
+
+        //Client.operate();
+
+        //8. Bridge pattern
+
+        BridgePatternClient.operate();
     }
 }
 
